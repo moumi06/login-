@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image: url("https://media.istockphoto.com/id/1400194993/photo/cappuccino-art.jpg?s=1024x1024&w=is&k=20&c=i3jaDBeWPUBrDC7qU4-sb1FuxcpbDvlglGjQw7AYuf0=");
+            background-size: 100% 730px;
+            display: flex;
+            justify-content: center;
+        }
+        .container
+        {
+            width: 300px;
+            height: 400px;
+            /* background-color: rgb(7, 8, 8); */
+            color: rgb(8, 8, 8);
+            text-align: center;
+            /* margin-left: 36%;*/
+            margin-top: 9%; 
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgb(80, 72, 72);
+            box-shadow: 15px 19px 26px black;
+        }
+        .container .text
+        {
+            position: relative;
+            top: 7%;
+        }
+        input
+        {
+            border: none;
+            /* background-color: black; */
+            border-bottom: 2px solid rgb(63, 59, 59);
+            width: 220px;
+            font-size: 15px;
+            margin-top: 25px;
+            outline: none;
+            color: aliceblue;
+            /* backdrop-filter: blur(20px); */
+            background: transparent;
+        }
+        input::placeholder
+        {
+            color: aliceblue;
+        }
+        p
+        {
+            margin-top: 30px;
+            font-size: 15px;
+        }
+        button
+        {
+            width: 220px;
+            height: 30px;
+            background-color: aqua;
+            border-radius: 20px;
+            border: none;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        button:hover
+        {
+            background-color: blue;
+            color: aliceblue;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+        <div class="text">
+            <h1>Login</h1>
+            <input type="text" placeholder="enter username">
+            <input type="password" placeholder="password">
+            <p>forgot password?</p>
+            <button>Login</button>
+            <p>not a member? <a href="signup.html">sign up</a></p>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
